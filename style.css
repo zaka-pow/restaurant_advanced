@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: rgb(154, 49, 49) ;
+    background: linear-gradient(to right, rgb(65, 1, 1), rgb(149, 71, 71));
+    text-align: center;
+    padding: 50px 20px;
+}
+.header h1 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 18.5px;
+}
+.header p {
+    color: white;
+    opacity: 0.85;
+}
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f0f5fa;
+}
+.menu
+{
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+html {
+scroll-behavior: smooth;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(86, 4, 4);
+    padding: 15px 25px;
+    display: block;
+}
+.menu li a:hover {
+    background-color: rgb(154, 49, 49);
+    background: linear-gradient(to right, rgb(65, 1, 1), rgb(149, 71, 71));
+    color: white;
+}
+.hero{
+    text-align: center;
+    padding: 60px 20px;
+}
+.btn{
+    background-color: rgb(203, 203, 185);
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: rgba(102, 2, 2, 0.641) ;
+    color:white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: rgb(154, 49, 49);
+    background: linear-gradient(to right, rgb(65, 1, 1), rgb(149, 71, 71));
+}
+.section{
+    padding: 50px 10%;
+}
+.section h2{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.card-list{
+    display: flex;
+    gap: 20px;
+}
+.card-food{
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    position:relative;
+    transition:0.3s;
+}
+.card-food:hover{
+    transform: translateY(-5px);
+}
+.section-title {
+  margin-bottom: 20px;
+  border-left: 5px solid rgb(214, 84, 3); 
+  padding-left: 10px;
+}
+.best-seller{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.price {
+  display: inline-block;
+  margin-top: 10px;
+  color: burlywood;
+  font-weight: bold;
+}
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.card-food:hover .overlay{
+    opacity: 1;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 2opx;
+}
+th{
+    padding: 12px;
+    color: white;
+    background-color: rgba(214, 87, 2, 0.67);
+}
+td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover{
+    background-color: #f1f5f9;
+}
+
+.reviews{
+    display: flex;
+    gap: 20px;
+}
+.review{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.datban-form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.datban-form input,
+.datban-form select,
+.datban-form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+.datban-form input:focus,
+.datban-form textarea:focus {
+    border-color: rgb(154, 49, 49);
+    outline: none;
+}
+.datban-form textarea,
+.datban-form button{
+    grid-column: span 2;
+}
+.datban-form button{
+    background: rgb(154, 49, 49);
+    background: linear-gradient(to right, rgb(65, 1, 1), rgb(149, 71, 71));
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border-radius: 4px;
+}
+.footer {
+    background-color: rgb(65, 60, 60);
+    background: linear-gradient(rgb(65, 60, 60), rgb(149, 71, 71));
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
