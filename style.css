@@ -57,7 +57,7 @@ scroll-behavior: smooth;
     text-align: center;
     padding: 60px 20px;
 }
-.btn{
+.datban{
     background-color: rgb(203, 203, 185);
     display: inline-block;
     margin-top: 20px;
@@ -68,7 +68,7 @@ scroll-behavior: smooth;
     text-decoration: none;
     transition: 0.3s;
 }
-.btn:hover{
+.datban:hover{
     background: rgb(154, 49, 49);
     background: linear-gradient(to right, rgb(65, 1, 1), rgb(149, 71, 71));
 }
